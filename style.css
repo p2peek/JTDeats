@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    height: 4430px;
+    font-family: 'Roboto', sans-serif;
+}
+.Landing-sec{
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    background-color: #1AC073;
+}
+.hero-display{
+    position: absolute;
+    width: 534px;
+    height: 317px;
+    top: 250px;
+    left: 132px;
+}
+.cooking{
+    position: absolute;
+    width: 521.63px;
+    height: 525px;
+    top: 239.9px;
+    left: 774px;
+}
+.text{
+    width: 534px;
+    height: 219px;
+}
+.heading{
+    width: 534px;
+    height: 147px;
+    color: white;
+    font-size: 70px;
+    font-weight: 350;
+}
+.subheading{
+    width: 441px;
+    height: 40px;
+    font-size: 18px;
+    padding-top: 32px;
+    line-height: 20px;
+    color: white;
+    font-weight: 200;
+}
+.search-bar{
+    width: 398px;
+    height: 58px;
+    margin-top: 40px;
+    background-color: pink;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.srch-btn{
+    width: 112px;
+    height: 58px;
+    background-color: #F3BA00;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+.input{
+    width: 286px;
+    height: 58px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding-left: 22px;
+    font-size: 15px;
+}
+.navbar{
+    width: 1440px;
+    height: 80px;
+    /* background-color: red; */
+    text-align: center;
+    
+    /* padding-bottom: 30px; */
+}
+.main-div{
+    width: 1164px;
+    height: 24px;
+    /* background-color: aqua; */
+    margin-left: 146px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-tags{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+.nav-tags a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.food-sec{
+    width: 1440px;
+    height: 2029px;
+    /* background-color: aqua; */
+    background-color: #F0FAF7;
+
+}
+.kitchen-items{
+    position: absolute;
+    width: 1180px;
+    height: 1217px;
+    /* background-color: blue; */
+    margin-left: 130px;
+    margin-top: 105px;
+}
+.home-kitchen{
+    position: absolute;
+    width: 300px;
+    /* height: 44px; */
+    margin-top: -10px;
+    /* line-height: 24; */
+    font-size: 40px;
+    /* background-color: red; */
+}
+.food-container{
+    position: absolute;
+    width: 1180px;
+    height: 1131;
+    padding-top: 87px;
+}
+.Search{
+    color: #F0FAF7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 277px 277px 277px 277px;
+  /* gap: 20px; */
+  row-gap: 39px;
+  column-gap: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 277px;
+  height: 337px;
+}
+
+.card img {
+  width: 277px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: gold;
+  color: black;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-content .title {
+  font-weight: 500;
+}
+
+.card-content .price {
+  font-weight: bold;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.add-btn {
+  background: gold;
+  color: black;
+  border: none;
+  padding: 6px 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #ffc107;
+}
