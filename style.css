@@ -113,7 +113,7 @@ body{
     width: 1440px;
     height: 2029px;
     /* background-color: aqua; */
-    background-color: #F0FAF7;
+    background-color: #F2F2F2;
 
 }
 .kitchen-items{
@@ -138,6 +138,7 @@ body{
     width: 1180px;
     height: 1131;
     padding-top: 87px;
+    /* background-color: #F3BA00; */
 }
 .Search{
     color: #F0FAF7;
@@ -173,7 +174,7 @@ body{
 .card {
   background: white;
   border-radius: 10px;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   width: 277px;
@@ -233,4 +234,113 @@ body{
 
 .add-btn:hover {
   background-color: #ffc107;
+}
+
+
+
+
+
+
+
+.popular-food{
+    position: absolute;
+    width: 1178px;
+    height: 410px;
+    /* background-color: red; */
+    margin-top: 1403px;
+    margin-left: 130px;
+}
+.popular-txt{
+    text-align: center;
+    font-size: 39px;
+    margin-top: -11px;
+}
+.caro-div{
+    position: absolute;
+    margin-top: 35px;
+    /* margin-left: 122.5px; */
+    display: flex;
+    width: 1178px;
+    height: 337px;
+    /* background-color: aqua; */
+}
+.caraousel{
+    position: relative;
+    gap: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* margin-top: 30px; */
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 1000px;
+    height: 360px;
+    /* background-color: #F3BA00; */
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.pCard{
+    /* margin-right: 50px; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.left-btn{
+    width: 71.5px;
+    height: 71.5px;
+    border-radius: 50%;
+    margin-top: 132px;
+    border: none;
+    outline: none;
+    background-color: #F0FAF7;
+    border: 3px solid #1AC073;
+    padding: 2px 20px 0px 15px;
+    transition: 0.4s;
+}
+.left-btn:hover{
+    background-color: #1AC073;
+    
+}
+.left-btn:hover .svg{
+    color: #F0FAF7;
+}
+.right-btn{
+    width: 71.5px;
+    height: 71.5px;
+    border-radius: 50%;
+    margin-top: 132px;
+    border: none;
+    outline: none;
+    background-color: #F0FAF7;
+    border: 3px solid #1AC073;
+    padding: 2px 15px 0px 20px;
+    transition: 0.4s;
+}
+.right-btn:hover{
+    background-color: #1AC073;
+
+}
+.right-btn:hover .svg{
+    color: #F0FAF7;
+}
+.svg{
+    color: #1AC073;
+}
+.pCard:hover{
+    /* background-color: #F3BA00; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
+    box-shadow: black;
+}
+.dish{
+    width: 210px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #1AC073;
+    border: none;
+    outline: none;
+    color: #F0FAF7;
+    margin-top: 1900px;
+    margin-left: 615px;
+    font-size: 15px;
+    font-weight: 700;
 }
