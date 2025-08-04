@@ -592,3 +592,78 @@ video {
   width: 80px;
   height: 80px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.request-a-dish{
+    display: flex;
+    flex-direction: column;
+    width: 88.5rem;
+    height: 40rem;
+    background: #F7F8FA;
+    border-radius: 20px;
+}
+
+.inner1{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+.inner2{
+    margin-top: -3rem;
+    padding: 10rem;
+}
+#name,#upload{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #F2F2F2;
+}
+.inner3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -4rem;
+}
+#cancel button{
+    background: #1AC073;
+    border-radius: 7px;
+    border-color: #1AC073;
+    padding: 11px 60px;
+    color: #1AC073;
+    border-style: double;
+    background-color: white;
+    cursor: pointer;
+}
+#cancel button:hover{
+    opacity: 0.8;
+}
+#submit button{
+    margin-left: 1rem;
+    background: #1AC073;
+    border-radius: 7px;
+    padding: 12.5px 30px;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+#submit button:hover{
+    opacity: 0.8;
+}
+.hide2{
+    visibility: hidden;
+} */
