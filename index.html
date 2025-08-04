@@ -349,7 +349,53 @@
                     Choose from a selection of our delicious home cooked dishes </p>
             </div>
         </div>
-        <div class="video"></div>
+        <div class="video">
+            <!-- <video width="100%" height="442px" muted class="vege_video">
+                <source src="assets/vegetables_video.mp4" type="video/mp4">
+                your browser dont support this tag
+                
+            </video>
+            <div class="video_control">
+                <button><svg class="svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 17 16">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M6.113 15.495c-.582.581-2.103.9-2.103-1.001V1.506c0-1.839 1.521-1.582 2.103-1l6.444 6.442a1.49 1.49 0 0 1 0 2.104l-6.444 6.443z" />
+                    </svg>
+                </button>
+            </div> -->
+
+
+
+
+
+            <div class="video-container">
+                <video id="myVideo" poster="thumbnail.jpg" >
+                    <source src="/assets/vegetables_video.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+                <button id="playPauseBtn" class="play-btn">
+                    <svg id="playIcon" xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48"
+                        fill="#fff">
+                        <circle cx="24" cy="24" r="24" fill="#1AC073" />
+                        <polygon points="20,16 34,24 20,32" fill="white" />
+                    </svg>
+
+                    <svg id="pauseIcon" xmlns="http://www.w3.org/2000/svg" height="48" width="48" viewBox="0 0 48 48"
+                        fill="#fff" style="display: none;">
+                        <circle cx="24" cy="24" r="24" fill="#1AC073" />
+                        <rect x="18" y="16" width="4" height="16" fill="white" />
+                        <rect x="26" y="16" width="4" height="16" fill="white" />
+                    </svg>
+                </button>
+            </div>
+
+
+
+
+
+
+
+        </div>
         <div class="tint"></div>
     </section>
 
@@ -366,17 +412,17 @@
                     </div>
                 </div>
                 <form action="" class="formclass">
-                    <input type="text" placeholder="Your Name" class="input_inline">
-                    <input type="text" placeholder="Your e-mail" class="input_inline">
-                    <input type="text" placeholder="Your message">
-                    <button type="submit">submit</button>
+                    <input type="text" placeholder="Your Name" class="input_inline1">
+                    <input type="text" placeholder="Your e-mail" class="input_inline2">
+                    <input type="text" placeholder="Your message" class="input_mssg">
+                    <button type="submit" class="submit-btn">submit</button>
                 </form>
             </div>
             <div class="form_img">
                 <img src="assets/Food_delivery_cute_man_riding_motorcycles_cartoon_art_illustration 2.svg" alt="">
             </div>
         </div>
-        <button class="submit">Submit</button>
+        <!-- <button class="submit">Submit</button> -->
     </section>
 
     <Footer class="footer">
