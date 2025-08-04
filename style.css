@@ -389,7 +389,37 @@ body{
 .form{
     width: 684px;
     height: 402px;
-    background-color: aqua;
+    /* background-color: aqua;   */
+}
+.form-txt{ 
+    /* background-color: blue; */
+    width: 317px;
+    height: 73px;
+}
+.f-heading{
+    width: 286px;
+    height: 48px;
+    /* background-color: #1AC073; */
+}
+.f-heading div{
+    margin-top: -2px;
+    font-size: 23px;
+    /* line-height: 24; */
+}
+.s-heading{
+    position: absolute;
+    margin-top: 15px;
+    width: 317px;
+    height: 20px;
+    font-size: 11px;
+    /* background-color: #666; */
+}
+.formclass{
+    position: absolute;
+    margin-top: 32px;
+    width: 617px;
+    height: 327px;
+    background-color: #F3BA00;
 }
 .form_img{
     width: 503px;
@@ -413,4 +443,55 @@ body{
     width: 1440px;
     height: 140px;
     background-color: #1AC073;
+}
+.foot-nav{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 130px;
+    width: 1182.15px;
+    height: 34px;
+    /* background-color: #F3BA00; */
+    /* display: flex; */
+}
+.logo{
+    position: absolute;
+    /* padding-top: 5px; */
+    margin-top: 7px;
+    width: 90px;
+    height: 34px;
+    /* background-color: aqua; */
+}
+.footer-menu{
+    position: absolute;
+    width: 480px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 402px;
+    row-gap: 40px;
+}
+.footer-menu a{
+    width: 48px;
+    height: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    /* background-color: red; */
+    color: #F2F2F2;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.social{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 1114px;
+    width: 68.15px;
+    height: 26px;
+    /* background-color: red; */
+}
+.line{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 130px;
+    width: 1180.5px;
+    height: 1px;
+    background-color: #F0FAF7;
 }
